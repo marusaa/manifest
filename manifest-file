@@ -1,0 +1,12 @@
+{
+    packages = {
+        rockspec2cmake = {
+            ["0.1-1"] = {
+                dependencies = {
+                    "lua >= 5.1"
+                }
+            }
+        }
+    },
+    repo_path = "git://github.com/f4rnham/%s.git"
+}
