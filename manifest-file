@@ -30,6 +30,12 @@
                 }
             }
         },
+        zlib = {
+            ["1.2.6"] = {
+                dependencies = {
+                }
+            }
+        },
     },
     repo_path = "git://github.com/f4rnham/%s.git"
 }
