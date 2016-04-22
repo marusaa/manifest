@@ -14,7 +14,7 @@
                 }
             },
         },
-        luadist2 = {
+        --[[luadist2 = {
             ["0.2-1"] = {
                 dependencies = {
                     "lua >= 5.1",
@@ -25,7 +25,7 @@
                     "lua-git >= 0.5-1",
                 }
             }
-        },
+        },]]
         ["lua-git"] = {
             ["0.5-1"] = {
                 dependencies = {
