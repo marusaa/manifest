@@ -1,10 +1,18 @@
 {
     packages = {
         lua = {
+            ["5.1.5-1"] = {
+                dependencies = {
+                }
+            },
             ["5.2.4-1"] = {
                 dependencies = {
                 }
-            }
+            },
+            ["5.3.2-1"] = {
+                dependencies = {
+                }
+            },
         },
         luadist2 = {
             ["0.2-1"] = {
