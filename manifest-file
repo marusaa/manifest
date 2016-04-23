@@ -30,18 +30,6 @@
                 }
             }
         },
-        penlight = {
-            ["1.3.2-3"] = {
-                dependencies = {
-                    "luafilesystem",
-                }
-            },
-            ["1.3.3.luadist-1"] = {
-                dependencies = {
-                    "luafilesystem",
-                }
-            }
-        },
     },
     repo_path = "git://github.com/LuaDist-core/%s.git"
 }
