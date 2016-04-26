@@ -30,6 +30,16 @@
                 }
             }
         },
+        lunaci = {
+            ["0.2-1"] = {
+                supported_platforms = {"unix", "linux"},
+                dependencies = {
+                    "lua >= 5.1",
+                    "penlight >= 1.3.3.luadist",
+                    "lualogging >= 1.3.0",
+                }
+            }
+        },
     },
     repo_path = "git://github.com/LuaDist-core/%s.git"
 }
