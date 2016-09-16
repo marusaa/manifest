@@ -31,6 +31,14 @@
             }
         },
         lunaci = {
+            ["0.3-1"] = {
+                supported_platforms = {"unix", "linux"},
+                dependencies = {
+                    "lua >= 5.1",
+                    "penlight == 1.3.3.luadist-1",
+                    "lualogging >= 1.3.0",
+                }
+            },
             ["0.2-1"] = {
                 supported_platforms = {"unix", "linux"},
                 dependencies = {
@@ -49,6 +57,16 @@
             }
         },
         luadist2 = {
+            ["0.6-2"] = {
+                dependencies = {
+                    "lua >= 5.1",
+                    "lualogging >= 1.3.0-1",
+                    "rocksolver >= 0.4-1",
+                    "rockspec2cmake >= 0.1-1",
+                    "penlight == 1.3.3.luadist-1",
+                    "lua-git >= 0.5-1",
+                }
+            },
             ["0.6-1"] = {
                 dependencies = {
                     "lua >= 5.1",
