@@ -88,6 +88,13 @@
                 }
             }
         },
+        srlua = {
+            ["5.2-1"] = {
+                dependencies = {
+                    "lua ~= 5.2",
+                }
+            }
+        },          
     },
     repo_path = "git://github.com/LuaDist-core/%s.git"
 }
