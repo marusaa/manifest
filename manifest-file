@@ -56,6 +56,13 @@
                 }
             }
         },
+        penlight = {
+            ["1.4.1-0"] = {
+                dependencies = {
+                    "luafilesystem"
+                }
+            }
+        },
         luadist2 = {
         ["0.6-3"] = {
             dependencies = {
