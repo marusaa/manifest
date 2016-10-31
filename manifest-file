@@ -80,7 +80,6 @@
                 "lua-git >= 0.5-1",
             }
         },
-        luadist2 = {
         ["0.6-3"] = {
             dependencies = {
                 "lua >= 5.1",
