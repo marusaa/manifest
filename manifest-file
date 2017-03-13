@@ -15,8 +15,8 @@
           "lua >= 5.1",
           "c3",
           "coronest",
-          "uuid"
-          "luasocket"
+          "uuid",
+          "luasocket",
         }
       },
     },
