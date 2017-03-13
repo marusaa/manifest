@@ -9,6 +9,16 @@
             },
             
         },
+        layeredata = {
+       ["0.1-5"] = {
+        dependencies = {
+          "lua >= 5.1",
+          "c3",
+          "coronest",
+          "uuid"
+          "luasocket"
+        }
+      },
     },
     repo_path = "git://github.com/marusinP/%s.git"
 }
