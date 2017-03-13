@@ -20,5 +20,6 @@
         }
       },
     },
+    }
     repo_path = "git://github.com/marusinP/%s.git"
 }
