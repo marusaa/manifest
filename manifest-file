@@ -1,132 +1,13 @@
 {
     packages = {
-        lua = {
-            ["5.1.5-1"] = {
+        inilazy = {
+            ["1.05-1"] = {
                 dependencies = {
-                }
-            },
-            ["5.2.4-1"] = {
-                dependencies = {
-                }
-            },
-            ["5.3.2-1"] = {
-                dependencies = {
-                }
-            },
-        },
-        ["lua-git"] = {
-            ["0.5-1"] = {
-                dependencies = {
-                  "lua >= 5.1, < 5.3",
-                  "luasocket >= 2.0.0",
-                  "luafilesystem >= 1.6",
-                  "zlib >= 1.2",
-                }
-            }
-        },
-        zlib = {
-            ["1.2.6-1"] = {
-                dependencies = {
-                }
-            }
-        },
-        lunaci = {
-            ["0.3-1"] = {
-                supported_platforms = {"unix", "linux"},
-                dependencies = {
-                    "lua >= 5.1",
-                    "penlight >= 1.4.1",
-                    "lualogging >= 1.3.0",
-                }
-            },
-            ["0.2-1"] = {
-                supported_platforms = {"unix", "linux"},
-                dependencies = {
-                    "lua >= 5.1",
-                    "penlight >= 1.4.1",
-                    "lualogging >= 1.3.0",
-                }
-            }
-        },
-        rockspec2cmake = {
-            ["0.3-3"] = {
-                dependencies = {
-                    "lua >= 5.1",
-                    "penlight == 1.4.1-0",
-                }
-            },
-            ["0.3-2"] = {
-                dependencies = {
-                    "lua >= 5.1",
-                    "penlight == 1.4.1-0",
-                }
-            }
-        },
-        penlight = {
-            ["1.4.1-0"] = {
-                dependencies = {
-                    "luafilesystem"
-                }
-            }
-        },
-        luadist2 = {
-        ["0.6-4"] = {
-            dependencies = {
                 "lua >= 5.1",
-                "lualogging >= 1.3.0-1",
-                "rocksolver >= 0.4-1",
-                "rockspec2cmake >= 0.1-1",
-                "penlight == 1.4.1-0",
-                "lua-git >= 0.5-1",
-            }
-        },
-        ["0.6-3"] = {
-            dependencies = {
-                "lua >= 5.1",
-                "lualogging >= 1.3.0-1",
-                "rocksolver >= 0.4-1",
-                "rockspec2cmake >= 0.1-1",
-                "penlight == 1.4.1-0",
-                "lua-git >= 0.5-1",
-            }
-        },
-            ["0.6-2"] = {
-                dependencies = {
-                    "lua >= 5.1",
-                    "lualogging >= 1.3.0-1",
-                    "rocksolver >= 0.4-1",
-                    "rockspec2cmake >= 0.1-1",
-                    "penlight == 1.3.3.luadist-1",
-                    "lua-git >= 0.5-1",
+                "luasocket >= 2.0 ",
                 }
             },
-            ["0.6-1"] = {
-                dependencies = {
-                    "lua >= 5.1",
-                    "lualogging >= 1.3.0-1",
-                    "rocksolver >= 0.4-1",
-                    "rockspec2cmake >= 0.1-1",
-                    "penlight == 1.3.3.luadist-1",
-                    "lua-git >= 0.5-1",
-                }
-            },
-            ["0.5-1"] = {
-                dependencies = {
-                    "lua >= 5.1",
-                    "lualogging >= 1.3.0-1",
-                    "rocksolver >= 0.4-1",
-                    "rockspec2cmake >= 0.1-1",
-                    "penlight == 1.3.3.luadist-1",
-                    "lua-git >= 0.5-1",
-                }
-            }
-        },
-        srlua = {
-            ["5.2-2"] = {
-                dependencies = {
-                    "lua ~= 5.2",
-                }
-            }
+            
         },
     },
     repo_path = "git://github.com/marusinP/%s.git"
