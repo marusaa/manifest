@@ -1,6 +1,12 @@
 {
     packages = {
         inilazy = {
+        ["1.05-1_c13cba3445"] = {
+                dependencies = {
+                "lua >= 5.1",
+                "luasocket >= 2.0 ",
+                }
+            },
             ["1.05-1_c13cba3445f87e95b58a6d1167f401bf"] = {
                 dependencies = {
                 "lua >= 5.1",
